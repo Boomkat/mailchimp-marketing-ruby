@@ -27,7 +27,8 @@ Gem::Specification.new do |s|
   s.license     = 'Apache-2.0'
   s.required_ruby_version = ">= 1.9"
 
-  s.add_runtime_dependency 'excon', '>= 0.45.0', '<1'
+  # s.add_runtime_dependency 'excon', '>= 0.45.0', '<1'
+  s.add_dependency 'excon', '>= 0.45.0', '<1'
 	s.add_dependency 'json', '>= 1.7'
 
   s.add_development_dependency 'rspec', '~> 3.6', '>= 3.6.0'
